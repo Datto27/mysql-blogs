@@ -1,0 +1,7 @@
+cofigure MySql
+npm install mysql2
+create new gb in mysql workbanch
+npm install sequelize sequelize-cli
+sequelize init
+create Models
+ds
