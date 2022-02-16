@@ -12,6 +12,7 @@ Used Tools:
 # Start server: 
 !!! before start your server be sure you have created mySql db inside your workbanch
 !!! after you made it, install sequelize and sequelize-cli; run --> sequelize init
+
 move into server folder and run --> nodemon app.js
 
 # Start frontend:
