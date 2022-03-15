@@ -11,6 +11,7 @@ Used Tools:
 
 # Start server: 
 !!! before start your server be sure you have created mySql db inside your workbanch
+
 !!! after you made it, install sequelize and sequelize-cli; run --> sequelize init
 
 ? sequelize init, generates your db config.json (port number, db name ...) into config file and creates models folder with index.js.
@@ -22,6 +23,7 @@ move into client folder and run --> npm start
 
 # Used moduls(backend):
 sequelize: for connect mySql db with node js;
+
 bcrypt: for password hashing
 
 
