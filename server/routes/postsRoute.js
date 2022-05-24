@@ -3,7 +3,7 @@ const router = express.Router()
 const {Posts, Likes} = require("../models")
 
 const { validateToken } = require("../middleware/AuthMiddleware")
-
+// req.user comes from middleware (validToken)
 router.get("/", validateToken, async (req, res) => {
   // console.log("user --> ", req.user)
   const listOfPosts = await Posts.findAll({include:[Likes]})
